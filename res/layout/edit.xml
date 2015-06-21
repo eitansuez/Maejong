@@ -1,0 +1,47 @@
+
+<LinearLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="400px"
+   android:layout_height="fill_parent"
+   android:paddingLeft="30px"
+   android:paddingRight="30px"
+   > 
+
+	<LinearLayout 
+      android:orientation="horizontal"
+	   android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content" 
+	   android:baselineAligned="true"
+	   android:padding="5px"
+	   >
+	   
+	   <TextView android:text="@string/name_caption" 
+	             android:layout_width="wrap_content" 
+	             android:layout_height="wrap_content"
+	             />
+	             
+	   <AutoCompleteTextView
+                android:id="@+id/name_text" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+	             android:completionThreshold="1"
+	             android:inputType="textPersonName|textCapWords"
+	             android:imeOptions="actionDone"
+                android:maxLines="1"
+	             />
+	
+	</LinearLayout>
+	
+
+   <Button android:text="@string/ok"
+           android:id="@+id/ok_btn"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:layout_gravity="right"
+           android:paddingLeft="30px"
+           android:paddingRight="30px"
+           />
+            
+</LinearLayout>

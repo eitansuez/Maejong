@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_description">משחק מאגונג של מאיה, אריק ועזרה</string>
+   <string name="authored_by">יוצר: איתן סואץ</string>
+   
+   <string name="newgame_label">משחק חדש</string>
+
+   <string name="settings_label">נתונים..</string>
+   <string name="settings_title">נתונים מאגונג</string>
+
+   <string name="reshuffle_label">ערבב</string>
+   <string name="shuffled_msg">ערבבתי את המשחק</string>
+
+   <string name="sound_title">קול</string>
+
+   <string name="highlight_title">הראה את החלקים החופשיים</string>
+   <string name="higlight_summary">צבע את החלקים החופשיים</string>
+
+   <string name="shake_title">נער בשביל לערבב</string>
+   <string name="shake_summary">אפשר ערבוב החלקים על ידי ניעור הטלפון</string>
+
+   <string name="theme_title">סיגנון</string>
+   <string name="theme_summary">בחר סיגנון</string>
+
+   <string name="layout_title">סידור החלקים</string>
+   <string name="layout_summary">ביר סידור החלקים</string>
+
+   <string name="instructions_label">הוראות</string>
+   <string name="instructions_title">איך לשחק</string>
+   <string name="instructions_text">
+&lt;p>
+גע זוגות חלקים חופשיים בכדי לעלם אותםת עד שכל החלקים נעלמו מהמשחק (חלק תקוע אם ישנם חלקים שכנים משני הצדדים).
+&lt;/p>
+&lt;p>
+האופציה &lt;i>הראה את החלקים החופשיים&lt;/i> (ראה &lt;u>נתונים&lt;/u> יכולה לעזור עם זיהוי החחקים החופשיים.
+&lt;/p>
+&lt;p>
+&lt;b>תכונות:&lt;/b>&lt;br/>
+  - אפשר לערבב את החלקים על ידי ניעור הטלפון.&lt;br/>
+  - שני סיגנונים של חלקים&lt;br/>
+  - עשרה אופציות שונות של סידורים של חלקים&lt;br/>
+  - לחץ על כפתור &lt;u>חזור&lt;/u> לחזור אחורה
+    (בכדי לעזוב באמצע משחקת לחץ על בכפתור &lt;u>חזור&lt;/u> של הטלפון במשך שנייה או יותר.).&lt;br/>
+&lt;p>
+תהנו!&lt;br/>
+/ איתן, מאיה, אריק, ועזרא
+&lt;/p>
+   </string>
+
+   <string name="about_label">על</string>
+   <string name="about_title">על מאגונג</string>
+   
+   <string name="topscores_label">הישגים</string>
+   <string name="clear_scores">מחק את התוצאות</string>
+   
+   <string name="name_caption">שם:</string>
+   <string name="ok">בסדר</string>
+   
+   <string name="layouts_title">סידורים</string>
+   <string name="themes_title">סיגנון</string>
+   
+   <string name="dismiss_caption">סגור</string>
+   <string name="start_caption">התחל</string>
+   
+   <string name="congrats">מזל טוב</string>
+   <string name="another">עוד אחד</string>
+   <string name="back">חזור</string>
+   <string name="nomoremoves">אי אפשר להמשיך</string>
+   <string name="stuck_msg">מטקעתם.  מה לעשות עכשיו?</string>
+   <string name="clearedrecord_msg">נצחתם ב %s</string>
+   <string name="whatnext">מה אתם רוצים לעשות עכשיו?</string>
+   <string name="newhighscore_msg">שיא חדש: %s</string>
+   <string name="highscorewinner">ניצחתם עם שיא חדש</string>
+   <string name="anonymous">ללא שם</string>
+   
+   <string name="layout_caption">"%d מ- %d:  %s (%d חלקים)"</string>
+   <string name="continuing_prevgame">המשך המשחק הקודם</string>
+   
+
+   <string name="theme_pokemon">פוקמון</string>
+   <string name="theme_classic">קלאסי</string>
+
+
+   <string name="layout_checkers">דמקה</string>
+   <string name="layout_classic">קלאסי</string>
+   <string name="layout_crown">כתר</string>
+
+   <string name="layout_simple">לילדים</string>
+   <string name="layout_isengard">מגדל בבל</string>
+   <string name="layout_boat">ספינה</string>
+
+   <string name="layout_oh">עיגול</string>
+   <string name="layout_pyramid">פירמידה</string>
+   <string name="layout_threepyramids">שלוש פירמידות</string>
+
+   <string name="layout_tiefighter">חללית</string>
+
+ </resources>

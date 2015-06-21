@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+  >
+
+<ImageView android:src="@drawable/maejong" 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+  android:layout_gravity="center_horizontal"
+  android:layout_marginTop="15sp"
+  />
+
+<TableLayout 
+              android:layout_height="fill_parent"
+              android:layout_width="300px"
+              android:layout_gravity="center"
+              android:layout_marginTop="75sp" 
+              android:stretchColumns="*" 
+              android:gravity="center_vertical">
+  <TableRow>
+	  <Button 
+         android:id="@+id/layoutBtn" 
+	      android:text="@string/layout_title" 
+         android:width="100px"
+	      />
+	      
+	  <Button 
+         android:id="@+id/themeBtn" 
+	      android:text="@string/theme_title" 
+         android:width="100px"
+	      />
+  </TableRow>
+  <TableRow android:gravity="center_horizontal">
+     <Button 
+         android:id="@+id/startBtn" 
+         android:text="@string/start_caption" 
+         android:textColor="#080"/>
+  </TableRow>
+  <TableRow android:gravity="center_horizontal">
+     <Button 
+         android:id="@+id/topScoresBtn" 
+         android:text="@string/topscores_label"/>
+  </TableRow>
+  <TableRow>
+     <Button 
+         android:id="@+id/instructionsBtn" 
+         android:text="@string/instructions_label" 
+         android:width="100px"
+         />
+         
+     <Button 
+         android:id="@+id/aboutBtn" 
+         android:text="@string/about_label" 
+         android:width="100px"
+         />
+  </TableRow>
+
+</TableLayout>
+
+</FrameLayout>

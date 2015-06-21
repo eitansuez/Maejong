@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.eitan.maejong"
+          android:versionCode="8"
+          android:versionName="1.4">
+    <application android:name=".MaejongApplication"
+                 android:icon="@drawable/icon"
+                 android:label="@string/app_name"
+                 android:description="@string/app_description" 
+                 android:debuggable="false">
+
+        <activity android:name=".MainMenu"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/Theme.MaejongStartScreen"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LayoutPicker"
+                  android:label="Layout Picker"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/Theme.MaejongStartScreen"
+                  />
+        <activity android:name=".ThemePicker"
+                  android:label="Theme Picker"
+                  android:screenOrientation="landscape"
+                  android:theme="@style/Theme.MaejongStartScreen"
+                  />
+
+        <activity android:name=".Maejong"
+                  android:label="@string/app_name"
+                  android:launchMode="singleTask"
+                  android:theme="@style/Theme.Maejong"
+                  android:screenOrientation="landscape"
+                  android:configChanges="orientation|keyboardHidden"
+                  >
+        </activity>
+        <activity android:name=".Settings"
+                  android:label="@string/settings_title"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".Instructions"
+                  android:label="@string/instructions_title"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name=".About"
+                  android:label="@string/about_title"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+        <activity android:name="com.eitan.scores.TopScores"
+                  android:label="Top Scores"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.Dialog"
+                  />
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+</manifest>

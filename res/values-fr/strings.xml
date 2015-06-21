@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_description">Le jeu de mahjong de Maia, Arik et Ezra</string>
+   <string name="authored_by">par Eitan Suez</string>
+   
+   <string name="newgame_label">Nouveau Jeu</string>
+
+   <string name="settings_label">Paramètres..</string>
+   <string name="settings_title">Les Paramètres Maejong</string>
+
+   <string name="reshuffle_label">Mélangez</string>
+   <string name="shuffled_msg">Les pièces ont été mélangées</string>
+
+   <string name="sound_title">Son</string>
+
+   <string name="highlight_title">Surlignez les pièces libres</string>
+   <string name="higlight_summary">Méttez en évidence les pièces libres en les surlignant</string>
+
+   <string name="shake_title">Secouez pour mélanger</string>
+   <string name="shake_summary">Permet de mélanger les pieces en secouant le téléphone</string>
+
+   <string name="theme_title">Thème</string>
+   <string name="theme_summary">Choisissez un thème</string>
+
+   <string name="layout_title">Arrangement</string>
+   <string name="layout_summary">Choisissez un arrangement de pièces</string>
+
+   <string name="instructions_label">Instructions</string>
+   <string name="instructions_title">Règles du jeu Maejong</string>
+   <string name="instructions_text">
+&lt;p>
+Touchez des paires de pièces libres correspondantes pour les éliminer, jusqu\'a ce que toute les pièces aient été éliminé 
+(une pièce est bloquée si elle a des pièces voisines sur sa droite et sa gauche).
+&lt;/p>
+&lt;p>
+L\'option &lt;i>Sourlignez les pièces libres&lt;/i> (vois &lt;u>Paramètres&lt;/u> peut aider a identifier les pièces libres.
+&lt;/p>
+&lt;p>
+&lt;b>Caractèristiques:&lt;/b>&lt;br/>
+  - On peut mélanger les pièces en secouant le téléphone.&lt;br/>
+  - Peut choisir entre deux ensembles de pièces.&lt;br/>
+  - Peut choisir parmi dix différents arrangements de pièces.&lt;br/>
+  - Pour refaire un déplacement, appuyez sur le bouton &lt;u>back&lt;/u>
+    (Pour quitter au milieu d\'un jeu, appuyez sur le bouton &lt;u>back&lt;/u> du téléphone pendant une seconde).&lt;br/>
+&lt;p>
+Amusez vous bien!&lt;br/>
+/ Eitan, Maia, Arik, et Ezra (mae)
+&lt;/p>
+   </string>
+
+   <string name="about_label">À propos</string>
+   <string name="about_title">Au sujet de Maejong</string>
+   
+   <string name="topscores_label">Records</string>
+   <string name="clear_scores">Éffacez les scores</string>
+   
+   <string name="name_caption">Nom:</string>
+   <string name="ok">Ok</string>
+   
+   <string name="layouts_title">Arrangements</string>
+   <string name="themes_title">Thèmes</string>
+   
+   <string name="dismiss_caption">Annullez</string>
+   <string name="start_caption">Commencez</string>
+   
+   <string name="congrats">Félicitations!</string>
+   <string name="another">Encore un</string>
+   <string name="back">Retourne</string>
+   <string name="nomoremoves">Plus de mouvements possibles</string>
+   <string name="stuck_msg">Vous ètes Coincé.  Que voulez vous faire maintenant?</string>
+   <string name="clearedrecord_msg">Vous avez gagné le jeu en %s</string>
+   <string name="whatnext">Que voulez vous faire a présent?</string>
+   <string name="newhighscore_msg">Nouveau Record: %s</string>
+   <string name="highscorewinner">Nouveau gagnant</string>
+   <string name="anonymous">inconnu</string>
+   
+   <string name="layout_caption">"%d de %d:  %s (%d pièces)"</string>
+   <string name="continuing_prevgame">Continuent le jeu d\'avant..</string>
+   
+
+   <string name="theme_pokemon">Pokemon</string>
+   <string name="theme_classic">Classique</string>
+
+
+   <string name="layout_checkers">Écheques</string>
+   <string name="layout_classic">Classique</string>
+   <string name="layout_crown">Couronne</string>
+
+   <string name="layout_simple">Pour les enfants</string>
+   <string name="layout_isengard">Isengard</string>
+   <string name="layout_boat">La Licorne</string>
+
+   <string name="layout_oh">O</string>
+   <string name="layout_pyramid">Pyramide</string>
+   <string name="layout_threepyramids">Ténochtitlàn</string>
+
+   <string name="layout_tiefighter">Chasseur Tie</string>
+
+ </resources>

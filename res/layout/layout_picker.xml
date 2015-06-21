@@ -1,0 +1,58 @@
+
+<LinearLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:gravity="center"
+   > 
+   
+<TextView 
+        android:text="@string/layouts_title"
+        android:textSize="30sp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@android:drawable/edit_text"
+        />
+
+<LinearLayout 
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:gravity="center"
+   > 
+
+   <ImageButton
+           android:id="@+id/prev_layout_btn"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:padding="10px"
+           android:src="@drawable/back"
+           />
+
+   <com.eitan.maejong.LayoutButton
+           android:id="@+id/layout_btn"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"
+           />
+
+   <ImageButton
+           android:id="@+id/next_layout_btn"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:padding="10px"
+           android:src="@drawable/forward"
+           />
+            
+</LinearLayout>
+
+<TextView  android:id="@+id/layout_name_textview" 
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:textSize="20sp"
+           android:background="@android:drawable/editbox_background"
+           />
+
+</LinearLayout>
+

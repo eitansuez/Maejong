@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <CheckBoxPreference android:key="sound_option"
+                       android:title="@string/sound_title"
+                       android:defaultValue="true"
+                       android:widgetLayout="@layout/preference_widget_togglebutton"
+                       />
+   <CheckBoxPreference android:key="highlight_option"
+                       android:title="@string/highlight_title"
+                       android:summary="@string/higlight_summary"
+                       android:defaultValue="false" 
+                       />
+   <CheckBoxPreference android:key="shake_option"
+                       android:title="@string/shake_title"
+                       android:summary="@string/shake_summary"
+                       android:defaultValue="false" 
+                       android:widgetLayout="@layout/preference_widget_togglebutton"
+                       />
+</PreferenceScreen>

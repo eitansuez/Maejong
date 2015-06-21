@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Maejong</string>
+   <string name="app_description">Maia, Arik &amp; Ezra\'s Mahjong Solitaire</string>
+   <string name="app_version">1.4</string>
+   <string name="authored_by">by Eitan Suez</string>
+   
+   <string name="newgame_label">New Game</string>
+
+   <string name="settings_label">Settings..</string>
+   <string name="settings_title">Maejong Settings</string>
+
+   <string name="reshuffle_label">Re-shuffle</string>
+   <string name="shuffled_msg">Shuffled</string>
+
+   <string name="sound_title">Sound</string>
+
+   <string name="highlight_title">Highlight Free Tiles</string>
+   <string name="higlight_summary">Clarifies which tiles are free by highlighting them</string>
+
+   <string name="shake_title">Shake to shuffle</string>
+   <string name="shake_summary">Enable shuffling tiles by shaking device</string>
+
+   <string name="theme_title">Theme</string>
+   <string name="theme_summary">Select a theme</string>
+
+   <string name="layout_title">Layout</string>
+   <string name="layout_summary">Select a tile arrangement</string>
+
+   <string name="instructions_label">Instructions</string>
+   <string name="instructions_title">How to play Maejong</string>
+   <string name="instructions_text">
+&lt;p>
+Touch pairs of free matching tiles to eliminate them, until you\'ve cleared
+all tiles (a tile with neighboring tiles on both its right and left is considered
+blocked).
+&lt;/p>
+&lt;p>
+The option &lt;i>Highlight Free Tiles&lt;/i> in &lt;u>Settings&lt;/u> can help with identifying free tiles.
+&lt;/p>
+&lt;p>
+&lt;b>Features:&lt;/b>&lt;br/>
+  - Can optionally re-shuffle by shaking the phone.&lt;br/>
+  - Can select between two different sets of tiles.&lt;br/>
+  - Can select between ten different tile layouts/arrangements.&lt;br/>
+  - Backtracking:  to undo a move, use the phone\'s back button
+    (To quit if you\'re in the middle of the game, hold down phone\'s &lt;u>back&lt;/u> button for one second).&lt;br/>
+&lt;p>
+Enjoy!&lt;br/>
+/ Eitan, Maia, Arik, &amp; Ezra (mae)
+&lt;/p>
+   </string>
+
+   <string name="about_label">About</string>
+   <string name="about_title">About Maejong</string>
+   
+   <string name="topscores_label">Top Scores</string>
+   <string name="clear_scores">Clear Scores</string>
+   
+   <string name="name_caption">Name:</string>
+   <string name="ok">Ok</string>
+   <string name="layouts_title">Layouts</string>
+   <string name="themes_title">Themes</string>
+   <string name="dismiss_caption">Dismiss</string>
+   <string name="start_caption">Start</string>
+
+   <string name="congrats">Congratulations!</string>
+   <string name="another">Another</string>
+   <string name="back">Back</string>
+   <string name="nomoremoves">No more moves</string>
+   <string name="stuck_msg">You\'re stuck.  What would you like to do next?</string>
+   <string name="clearedrecord_msg">You\'ve cleared the deck in %s</string>
+   <string name="whatnext">What next?</string>
+   <string name="newhighscore_msg">New High Score: %s</string>
+   <string name="highscorewinner">High score winner</string>
+   <string name="anonymous">anonymous</string>
+
+   <string name="layout_caption">"%d of %d:  %s (%d tiles)"</string>
+   <string name="continuing_prevgame">Continuing previous game..</string>
+
+
+   <string name="theme_pokemon">Pokemon</string>
+   <string name="theme_classic">Classic</string>
+
+
+   <string name="layout_checkers">Checkers</string>
+   <string name="layout_classic">Classic</string>
+   <string name="layout_crown">Crown</string>
+
+   <string name="layout_simple">For the kids</string>
+   <string name="layout_isengard">Isengard</string>
+   <string name="layout_boat">Mayflower</string>
+
+   <string name="layout_oh">Oh</string>
+   <string name="layout_pyramid">Pyramid</string>
+   <string name="layout_threepyramids">Tenochtitlan</string>
+
+   <string name="layout_tiefighter">Tie Fighter</string>
+
+
+</resources>

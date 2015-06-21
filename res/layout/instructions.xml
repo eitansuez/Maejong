@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/instructionsText"
+          android:autoLink="all"
+          android:textSize="12sp"
+          android:paddingLeft="10px"
+          android:paddingRight="10px"
+          android:paddingBottom="10px"
+          >
+</TextView>
